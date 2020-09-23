@@ -9,4 +9,5 @@ export const updateTodo = (id, description) => ({
   type: UPDATE_TODO,
   data: { id, description },
 });
+
 export const deleteTodo = (id) => ({ type: DELETE_TODO, data: id });
